@@ -8,11 +8,14 @@
 
 import UIKit
 import CoreData
+import AVFoundation
 
 class MoviesTableViewController: UITableViewController {
     
     var label = UILabel(frame: CGRect(x: 0, y: 0, width: 200, height: 22))
     var fetchedResultController: NSFetchedResultsController<Movie>!
+    
+    var backgroundMusicPlayer: AVAudioPlayer!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +26,24 @@ class MoviesTableViewController: UITableViewController {
         label.textColor = .white
         
         loadMovies()
+        prepareMusic()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        backgroundMusicPlayer.play()
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        backgroundMusicPlayer.stop()
+    }
+    
+    func prepareMusic(){
+        let url = Bundle.main.url(forResource: "music", withExtension: "mp3")!
+        backgroundMusicPlayer = try! AVAudioPlayer(contentsOf: url)
+        backgroundMusicPlayer.volume = 0.2
+        backgroundMusicPlayer.numberOfLoops = -1
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
