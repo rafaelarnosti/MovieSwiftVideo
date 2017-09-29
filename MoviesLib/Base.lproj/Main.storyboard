@@ -209,7 +209,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WqK-0L-c24">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="spider-man-homecoming-1057x640.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="WqK-0L-c24">
                                 <rect key="frame" x="0.0" y="64" width="320" height="230"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="230" id="USg-ye-vSE">
@@ -689,6 +689,7 @@
         <image name="movies" width="22" height="22"/>
         <image name="play" width="53" height="53"/>
         <image name="settings" width="22" height="22"/>
+        <image name="spider-man-homecoming-1057x640.jpg" width="1057" height="640"/>
         <image name="theaters" width="22" height="22"/>
     </resources>
     <inferredMetricsTieBreakers>

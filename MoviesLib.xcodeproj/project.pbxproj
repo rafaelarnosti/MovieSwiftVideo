@@ -54,6 +54,7 @@
 		AC70C4FE1E748175005E598A /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC70C4FD1E748175005E598A /* WebViewController.swift */; };
 		ACE4BA8B1F7F006300EBE0B7 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ACE4BA891F7F006300EBE0B7 /* music.mp3 */; };
 		ACE4BA8C1F7F006300EBE0B7 /* spiderman-trailer.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = ACE4BA8A1F7F006300EBE0B7 /* spiderman-trailer.mp4 */; };
+		ACE4BA8E1F7F114900EBE0B7 /* spider-man-homecoming-1057x640.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE4BA8D1F7F114900EBE0B7 /* spider-man-homecoming-1057x640.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -106,6 +107,7 @@
 		AC70C4FD1E748175005E598A /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		ACE4BA891F7F006300EBE0B7 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
 		ACE4BA8A1F7F006300EBE0B7 /* spiderman-trailer.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "spiderman-trailer.mp4"; sourceTree = "<group>"; };
+		ACE4BA8D1F7F114900EBE0B7 /* spider-man-homecoming-1057x640.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "spider-man-homecoming-1057x640.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +188,7 @@
 				AC64CEBB1E70C98E00FD5EFF /* arrival-small.jpg */,
 				AC64CEBC1E70C98E00FD5EFF /* arrival-wide.jpg */,
 				AC64CEBD1E70C98E00FD5EFF /* avengersultron-small.jpg */,
+				ACE4BA8D1F7F114900EBE0B7 /* spider-man-homecoming-1057x640.jpg */,
 				AC64CEBE1E70C98E00FD5EFF /* avengersultron-wide.jpg */,
 				AC64CEBF1E70C98E00FD5EFF /* batmanvsuperman-small.jpg */,
 				AC64CEC01E70C98E00FD5EFF /* batmanvsuperman-wide.jpg */,
@@ -322,6 +325,7 @@
 				071943951F0D64B7002D0692 /* Settings.bundle in Resources */,
 				AC64CEDE1E70C98E00FD5EFF /* deadpool-wide.jpg in Resources */,
 				07780D541E6D860E00BC3630 /* Assets.xcassets in Resources */,
+				ACE4BA8E1F7F114900EBE0B7 /* spider-man-homecoming-1057x640.jpg in Resources */,
 				AC64CEE41E70C98E00FD5EFF /* legobatman-wide.jpg in Resources */,
 				AC64CEEC1E70C98E00FD5EFF /* suicidesquad-wide.jpg in Resources */,
 				AC64CED71E70C98E00FD5EFF /* avengersultron-small.jpg in Resources */,

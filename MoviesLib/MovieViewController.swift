@@ -35,6 +35,15 @@ class MovieViewController: UIViewController {
         
         if UserDefaults.standard.bool(forKey: "autoplay"){
             changeMovieStatus(play: true)
+        }else{
+            let oldHeight = ivPoster.frame.size.height
+            ivPoster.frame.size.height = 0
+            
+            UIView.animate(withDuration: 0.75, delay: 0, options: .curveEaseInOut, animations: { 
+                self.ivPoster.frame.size.height = oldHeight
+            }, completion: { (success) in
+                print("fim da bagaça: \(success)")
+            })
         }
     }
     
